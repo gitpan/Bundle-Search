@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Bundle-Search.t
+lib/Bundle/Search.pm
+META.yml                                 Module meta-data (added by MakeMaker)
