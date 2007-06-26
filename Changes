@@ -1,6 +1,6 @@
 Revision history for Perl extension Bundle::Search.
 
-0.01  Sat Jun 23 01:19:20 2007
+0.02  MON Jun 25 07:19:20 2007
 	- original version; created by h2xs 1.23 with options
 		-AXcfn Bundle::Search
 

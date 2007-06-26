@@ -3,7 +3,7 @@ package Bundle::Search;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 
@@ -60,7 +60,7 @@ File::Which
 
 File::Temp
 
-File::Copy
+File::Copy::Reliable
 
 Data::Dumper
 
@@ -90,8 +90,6 @@ FreezeThaw
 
 Cache::File
 
-Tie::Hash
-
 DB_File
 
 File::NFSLock
@@ -119,8 +117,6 @@ Carp
 XSLoader
 
 Log::Agent
-
-IO::File::Lockable
 
 IO::File::Log
 
@@ -212,13 +208,13 @@ Pragmatic
 
 Time::Piece
 
-Snowball::Norweigen
-
-Snowball::Swedish
+Snowball::Norwegian
 
 Bundle::Encode
 
 Bundle::Unicode
+
+Bundle::PlRPC
 
 Carp::Assert
 
@@ -240,13 +236,13 @@ Text::German
 
 Lingua::Stem
 
-Lingua::Stem::Snowball::DA
+Lingua::Stem::Snowball::Da
 
 Lingua::Stem::Fr
 
 Lingua::Stem::It
 
-Lingua::Stem::RU
+Lingua::Stem::Ru
 
 Lingua::PT::Stemmer
 
@@ -270,7 +266,7 @@ Lucene
 
 AnnoCPAN::Perldoc
 
-AnnoCPAN::SyncDB
+AnnoCPAN::Perldoc::SyncDB
 
 Params::Util
 
@@ -372,17 +368,11 @@ Search::VectorSpace
 
 PerlBench::Stats
 
-Net::Z3950
-
-Net::Z3950::ZOOM
-
 MARC
 
 MARC::Record
 
 YAML
-
-Search::Z3950
 
 Search::Lemur
 
@@ -494,7 +484,7 @@ XML::LibXML
 
 XML::LibXSLT
 
-XML::Xpath
+XML::XPath
 
 IO::Extended
 
@@ -558,7 +548,7 @@ XML::Dumper
 
 HTTP::Date
 
-HTML::Pretty
+HTML::PrettyPrinter
 
 HTML::FormatText
 
@@ -570,11 +560,11 @@ WWW::CheckSite
 
 WWW::Mechanize
 
-WWW::Mechanized::Cached
+WWW::Mechanize::Cached
 
 WWW::Overture::Keywords
 
-LWP::Cookies::Simple
+LWP::Simple::Cookies
 
 Time::Duration
 
